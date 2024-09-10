@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 52.0, 85.0, 1298.0, 1280.0 ],
+		"rect" : [ 52.0, 85.0, 1189.0, 1273.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,58 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-171",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 515.789433717727661, 1889.473537802696228, 61.0, 22.0 ],
+					"text" : "s to_OSC"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-170",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 563.157851099967957, 1928.420903205871582, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-168",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 515.789433717727661, 1851.578803896903992, 146.0, 22.0 ],
+					"text" : "pak /set_interpolation_t 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"floatoutput" : 1,
+					"id" : "obj-167",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 515.789433717727661, 1762.576328992843628, 157.192307949066162, 34.540871620178223 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 17.514954805374146, 1158.947278618812561, 157.192307949066162, 34.540871620178223 ],
+					"size" : 1.0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-139",
 					"maxclass" : "newobj",
@@ -827,13 +879,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-68",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 854.077014923095703, 1759.0, 133.0, 64.0 ],
-					"text" : "/generate_xy 0. -6.151012 5.480454 0. 1.44005 8.663802 0.142983 0.76543"
+					"patching_rect" : [ 854.077014923095703, 1759.0, 133.0, 50.0 ],
+					"text" : "/generate_xy 0. 0. 0. 0. 0. 0. 0.047169 -0.309238"
 				}
 
 			}
@@ -849,7 +901,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 578.997206807136536, 170.049777606476937, 314.0, 36.0 ],
-					"text" : "C:UsersanecoicaAppDataLocalTempgem_9141.wav C:UsersanecoicaAppDataLocalTempimg_9141.png"
+					"text" : "C:UsersanecoicaAppDataLocalTempgem_6572.wav C:UsersanecoicaAppDataLocalTempimg_6572.png"
 				}
 
 			}
@@ -1453,7 +1505,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1393.309867858886719, 494.0, 325.030922174453735, 332.0 ],
-					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_9141.png"
+					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_6572.png"
 				}
 
 			}
@@ -2568,7 +2620,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1388.110020518302917, 1104.821991145610809, 326.321971654891968, 84.0 ],
-					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_1065.png",
+					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_3294.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 578.997206807136536, 210.415998466212045, 326.321971654891968, 84.0 ],
 					"yoffset" : -246.0
@@ -2577,14 +2629,14 @@
 			}
 , 			{
 				"box" : 				{
-					"alpha" : 0.439908174560297,
+					"alpha" : 0.707106781186548,
 					"id" : "obj-129",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1388.110020518302917, 1104.821991145610809, 326.321971654891968, 84.0 ],
-					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_1065.png",
+					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_3294.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 578.997206807136536, 210.415998466212045, 326.321971654891968, 84.0 ],
 					"yoffset" : -164.0
@@ -2593,14 +2645,14 @@
 			}
 , 			{
 				"box" : 				{
-					"alpha" : 0.898042759535997,
+					"alpha" : 0.707106781186548,
 					"id" : "obj-130",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1388.110020518302917, 1104.821991145610809, 326.321971654891968, 84.0 ],
-					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_1065.png",
+					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_3294.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 578.997206807136536, 210.415998466212045, 326.321971654891968, 84.0 ],
 					"yoffset" : -82.0
@@ -2616,7 +2668,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1388.110020518302917, 1104.821991145610809, 326.321971654891968, 84.0 ],
-					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_1065.png",
+					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_3294.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 578.997206807136536, 210.415998466212045, 326.321971654891968, 84.0 ]
 				}
@@ -2691,7 +2743,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1392.664343118667603, 930.247587591409683, 326.321971654891968, 84.0 ],
-					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_1065.png",
+					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_3294.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 584.646692931652069, 397.984206862646829, 326.321971654891968, 84.0 ],
 					"yoffset" : -246.0
@@ -2700,14 +2752,14 @@
 			}
 , 			{
 				"box" : 				{
-					"alpha" : 0.917748533403661,
+					"alpha" : 0.637353069898259,
 					"id" : "obj-87",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1392.664343118667603, 930.247587591409683, 326.321971654891968, 84.0 ],
-					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_1065.png",
+					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_3294.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 584.646692931652069, 397.984206862646829, 326.321971654891968, 84.0 ],
 					"yoffset" : -164.0
@@ -2716,14 +2768,14 @@
 			}
 , 			{
 				"box" : 				{
-					"alpha" : 0.397161968767692,
+					"alpha" : 0.770571907281381,
 					"id" : "obj-86",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1392.664343118667603, 930.247587591409683, 326.321971654891968, 84.0 ],
-					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_1065.png",
+					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_3294.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 584.646692931652069, 397.984206862646829, 326.321971654891968, 84.0 ],
 					"yoffset" : -82.0
@@ -3041,7 +3093,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1392.664343118667603, 930.247587591409683, 326.321971654891968, 84.0 ],
-					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_9141.png",
+					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_6572.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 584.646692931652069, 397.984206862646829, 326.321971654891968, 84.0 ]
 				}
@@ -3721,6 +3773,29 @@
 				"patchline" : 				{
 					"destination" : [ "obj-147", 0 ],
 					"source" : [ "obj-166", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-168", 1 ],
+					"order" : 0,
+					"source" : [ "obj-167", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-170", 0 ],
+					"order" : 1,
+					"source" : [ "obj-167", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-171", 0 ],
+					"source" : [ "obj-168", 0 ]
 				}
 
 			}
@@ -4448,13 +4523,13 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "img_1065.png",
+				"name" : "img_3294.png",
 				"bootpath" : "~/AppData/Local/Temp",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "img_9141.png",
+				"name" : "img_6572.png",
 				"bootpath" : "~/AppData/Local/Temp",
 				"type" : "PNG",
 				"implicit" : 1
