@@ -466,9 +466,9 @@ class Generator(nn.Module):
 
     def forward(
         self,
-        styles,              # styles is a list with W1 and W2
+        styles,
         return_latents=False,
-        inject_index=None,   # inject_index controls where to switch between W1 and W2
+        inject_index=None,
         truncation=1,
         truncation_latent=None,
         input_is_latent=False,
@@ -478,23 +478,42 @@ class Generator(nn.Module):
         if not input_is_latent:
             styles = [self.style(s) for s in styles]
 
-        if len(styles) == 1:  # Single latent vector
+        if noise is None:
+            if randomize_noise:
+                noise = [None] * self.num_layers
+            else:
+                noise = [
+                    getattr(self.noises, f"noise_{i}") for i in range(self.num_layers)
+                ]
+
+        if truncation < 1:
+            style_t = []
+
+            for style in styles:
+                style_t.append(
+                    truncation_latent + truncation * (style - truncation_latent)
+                )
+
+            styles = style_t
+
+        if len(styles) < 2:
             inject_index = self.n_latent
 
             if styles[0].ndim < 3:
                 latent = styles[0].unsqueeze(1).repeat(1, inject_index, 1)
+
             else:
                 latent = styles[0]
 
-        else:  # Style mixing with W1 and W2
+        else:
             if inject_index is None:
                 inject_index = random.randint(1, self.n_latent - 1)
 
             latent = styles[0].unsqueeze(1).repeat(1, inject_index, 1)
             latent2 = styles[1].unsqueeze(1).repeat(1, self.n_latent - inject_index, 1)
+
             latent = torch.cat([latent, latent2], 1)
 
-        # Rest of your forward function remains the same
         out = self.input(latent)
         out = self.conv1(out, latent[:, 0], noise=noise[0])
 
@@ -514,9 +533,9 @@ class Generator(nn.Module):
 
         if return_latents:
             return image, latent
+
         else:
             return image, None
-
 
 
 class ConvLayer(nn.Sequential):
