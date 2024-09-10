@@ -331,17 +331,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-51",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 519.259242236614227, 1472.03498637676239, 61.0, 22.0 ],
-					"text" : "s to_OSC"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-49",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -409,20 +398,6 @@
 					"patching_rect" : [ 408.983046412467957, 973.333301424980164, 75.237316846847534, 75.237316846847534 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 663.381341576576233, 882.0, 75.237316846847534, 75.237316846847534 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-248",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 634.81479400396347, 1359.442397475242615, 39.830066680908203, 39.830066680908203 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 19.259258627891541, 1098.518482506275177, 39.830066680908203, 39.830066680908203 ]
 				}
 
 			}
@@ -616,20 +591,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-161",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 634.81479400396347, 1406.109062612056732, 50.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 71.111108779907227, 1098.518482506275177, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-155",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -652,18 +613,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 14.379085421562195, 1794.884024381637573, 121.0, 22.0 ],
 					"text" : "pak /generate_mixed"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-149",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 517.777760803699493, 1437.960913419723511, 131.0, 22.0 ],
-					"text" : "pak /set_inject_index 0"
 				}
 
 			}
@@ -901,7 +850,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 578.997206807136536, 170.049777606476937, 314.0, 36.0 ],
-					"text" : "C:UsersanecoicaAppDataLocalTempgem_6572.wav C:UsersanecoicaAppDataLocalTempimg_6572.png"
+					"text" : "C:UsersanecoicaAppDataLocalTempgem_534.wav C:UsersanecoicaAppDataLocalTempimg_534.png"
 				}
 
 			}
@@ -1505,7 +1454,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1393.309867858886719, 494.0, 325.030922174453735, 332.0 ],
-					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_6572.png"
+					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_534.png"
 				}
 
 			}
@@ -2620,7 +2569,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1388.110020518302917, 1104.821991145610809, 326.321971654891968, 84.0 ],
-					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_3294.png",
+					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_4805.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 578.997206807136536, 210.415998466212045, 326.321971654891968, 84.0 ],
 					"yoffset" : -246.0
@@ -2636,7 +2585,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1388.110020518302917, 1104.821991145610809, 326.321971654891968, 84.0 ],
-					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_3294.png",
+					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_4805.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 578.997206807136536, 210.415998466212045, 326.321971654891968, 84.0 ],
 					"yoffset" : -164.0
@@ -2652,7 +2601,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1388.110020518302917, 1104.821991145610809, 326.321971654891968, 84.0 ],
-					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_3294.png",
+					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_4805.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 578.997206807136536, 210.415998466212045, 326.321971654891968, 84.0 ],
 					"yoffset" : -82.0
@@ -2668,7 +2617,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1388.110020518302917, 1104.821991145610809, 326.321971654891968, 84.0 ],
-					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_3294.png",
+					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_4805.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 578.997206807136536, 210.415998466212045, 326.321971654891968, 84.0 ]
 				}
@@ -2743,7 +2692,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1392.664343118667603, 930.247587591409683, 326.321971654891968, 84.0 ],
-					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_3294.png",
+					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_4805.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 584.646692931652069, 397.984206862646829, 326.321971654891968, 84.0 ],
 					"yoffset" : -246.0
@@ -2759,7 +2708,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1392.664343118667603, 930.247587591409683, 326.321971654891968, 84.0 ],
-					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_3294.png",
+					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_4805.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 584.646692931652069, 397.984206862646829, 326.321971654891968, 84.0 ],
 					"yoffset" : -164.0
@@ -2775,7 +2724,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1392.664343118667603, 930.247587591409683, 326.321971654891968, 84.0 ],
-					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_3294.png",
+					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_4805.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 584.646692931652069, 397.984206862646829, 326.321971654891968, 84.0 ],
 					"yoffset" : -82.0
@@ -3093,7 +3042,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1392.664343118667603, 930.247587591409683, 326.321971654891968, 84.0 ],
-					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_6572.png",
+					"pic" : "C:\\Users\\anecoica\\AppData\\Local\\Temp\\img_534.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 584.646692931652069, 397.984206862646829, 326.321971654891968, 84.0 ]
 				}
@@ -3685,13 +3634,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-51", 0 ],
-					"source" : [ "obj-149", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-17", 7 ],
 					"order" : 1,
 					"source" : [ "obj-150", 0 ]
@@ -3731,13 +3673,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-247", 0 ],
 					"source" : [ "obj-157", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-149", 1 ],
-					"source" : [ "obj-161", 0 ]
 				}
 
 			}
@@ -3963,13 +3898,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-234", 0 ],
 					"source" : [ "obj-247", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-161", 0 ],
-					"source" : [ "obj-248", 0 ]
 				}
 
 			}
@@ -4475,13 +4403,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-248", 0 ],
-					"source" : [ "obj-94", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-135", 0 ],
 					"source" : [ "obj-95", 0 ]
 				}
@@ -4523,13 +4444,13 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "img_3294.png",
+				"name" : "img_4805.png",
 				"bootpath" : "~/AppData/Local/Temp",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "img_6572.png",
+				"name" : "img_534.png",
 				"bootpath" : "~/AppData/Local/Temp",
 				"type" : "PNG",
 				"implicit" : 1
